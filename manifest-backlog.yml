@@ -6,7 +6,7 @@ applications:
   routes:
   - route: backlog-pal-tracker-accountable-govin.cfapps.io
   path: Applications/BacklogServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://Registration-pal-tracker-govin.cfapps.io
+
   services:
   - tracker-backlog-database
+  - tracker-service-registry
